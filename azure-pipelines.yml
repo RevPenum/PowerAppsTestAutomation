@@ -13,7 +13,7 @@ resources:
       name: RevPenum/PowerAppsTestAutomation
       ref: master
       # Name of the GitHub OAuth ADO Service Connection
-      endpoint: github.com/RevPenum
+      endpoint: github.com_RevPenum
 
 parameters:
  - name: image
