@@ -10,7 +10,7 @@ resources:
       type: github
       # GitHub Repo(e.g. <FORK>/PowerAppsTestAutomation)
       # Recommended to Fork or Duplicate if custom auth flows are required
-      name: Revpenum/PowerAppsTestAutomation
+      name: RevPenum/PowerAppsTestAutomation
       ref: master
       # Name of the GitHub OAuth ADO Service Connection
       endpoint: github.com/RevPenum
