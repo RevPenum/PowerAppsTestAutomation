@@ -1,32 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@RevPenum 
-RevPenum
-/
-PowerAppsTestAutomation
-Public
-forked from microsoft/PowerAppsTestAutomation
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-PowerAppsTestAutomation/Samples/azure-pipelines.yml
-@TYLEROL
-TYLEROL YAML support for login method input (microsoft#4)
-…
-Latest commit d08a2d6 on Apr 18, 2020
- History
- 1 contributor
-78 lines (74 sloc)  2.81 KB
+
    
 # File: azure-pipelines.yml
 # Build Name / Format
@@ -103,20 +75,7 @@ jobs:
       OnlineUrl: $(PortalUrl)
       BrowserType: ${{ parameters.BrowserType }}
       # File location format is /s/TeamProjectName/FilePathToTestAutomationURLs.json
-      TestAutomationURLFilePath: $(Build.SourcesDirectory)\$(PowerAppsTestAutomation
-)\Samples\$(TestUrls.json)
+      TestAutomationURLFilePath: $(Build.SourcesDirectory)\$(PowerAppsTestAutomation)\Samples\$(TestUrls.json)
       UsePrivateMode: $(PrivateMode)
       LoginMethod: ${{ parameters.LoginMethod }}
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
